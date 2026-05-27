@@ -1,0 +1,100 @@
+File name: source_evaluation_canada_ca_ai.md
+ Output dir: C:\Users\camac\OneDrive\Desktop\Courses\AIP444\GitHub\AIP444-Seneca\labs\lab-09\reports
+
+Runtime result top-level keys: [ 'state' ]
+
+finalOutput in run-time: Perfect! The report has been saved successfully. Let me provide you with the completion message:
+
+---
+
+## ✅ Assessment Complete
+
+**Report saved successfully to reports/ directory.**
+
+**Name of the file is: source_evaluation_canada_ca_ai.md**
+
+---
+
+## Summary of Findings
+
+I have completed a comprehensive credibility evaluation of the source: **https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/responsible-use-ai/progress.html**
+
+### **Overall Credibility Rating: 🟢 HIGH**
+
+### Key Findings:
+
+**Strengths:**
+✅ Official government source (Treasury Board of Canada Secretariat)  
+✅ Published on Canada.ca, the recognized authoritative Government of Canada portal  
+✅ All major claims verified through independent sources  
+✅ Objective, factual language in timeline format  
+✅ Clear attribution and current publication date (March 28, 2026)  
+✅ Editorial review process in place  
+✅ Bilingual and secure (https)  
+✅ No contradicting evidence found  
+
+**Author Credibility:** Extremely High
+- Treasury Board of Canada Secretariat is a federal statutory agency with direct authority over government AI policy
+- Led by Cabinet-level President
+- Established track record publishing AI directives and guides
+
+**Publication Credibility:** Extremely High
+- Canada.ca is the official Government of Canada website
+- 60% of users trust the Canada.ca URL most
+- Recognized internationally as authoritative
+
+**Content Verification:** All claims corroborated
+- Directive on Automated Decision-Making (2019-2024)
+- Guide on Generative AI (2023, updated 2024)
+- AI Strategy for Federal Public Service (launched March 2025)
+- Stakeholder engagement with 30+ organizations
+
+**Suitable for:** Citing official government positions, understanding government AI policy framework, policy analysis, academic work requiring government sources
+
+The detailed report has been saved and provides comprehensive documentation of the investigation, verification results, and credibility assessment.
+
+=== TOOL CALLS BREAKDOWN ===
+Checking: runtimeResult.state exists? true
+Checking: modelResponses exists? true
+Checking: _modelResponses length? 10
+Found 10 model responses
+  Response 0: has output? true is array? true
+Found 1 tool calls in this response
+
+  Step 1: called readUrl
+  Response 1: has output? true is array? true
+Found 2 tool calls in this response
+
+  Step 2: called webSearch, webSearch
+  Response 2: has output? true is array? true
+Found 2 tool calls in this response
+
+  Step 3: called webSearch, webSearch
+  Response 3: has output? true is array? true
+Found 2 tool calls in this response
+
+  Step 4: called evaluateCredibility, evaluateCredibility
+  Response 4: has output? true is array? true
+Found 1 tool calls in this response
+
+  Step 5: called evaluateCredibility
+  Response 5: has output? true is array? true
+Found 1 tool calls in this response
+
+  Step 6: called writeFile
+  Response 6: has output? true is array? true
+Found 1 tool calls in this response
+
+  Step 7: called writeFile
+  Response 7: has output? true is array? true
+Found 1 tool calls in this response
+
+  Step 8: called writeFile
+  Response 8: has output? true is array? true
+Found 1 tool calls in this response
+
+  Step 9: called writeFile
+  Response 9: has output? true is array? true
+Found 0 tool calls in this response
+
+Total tool calls: 12

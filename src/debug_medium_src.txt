@@ -1,0 +1,76 @@
+File name: credibility_report_deepseek_reasoning_models.md
+ Output dir: C:\Users\camac\OneDrive\Desktop\Courses\AIP444\GitHub\AIP444-Seneca\labs\lab-09\reports
+
+Runtime result top-level keys: [ 'state' ]
+
+finalOutput in run-time: Perfect! Now let me display the final message:
+
+Report saved successfully to reports/ directory. 
+
+Name of the file is: **credibility_report_deepseek_reasoning_models.md**
+
+---
+
+## Summary of Findings
+
+I have completed a comprehensive credibility assessment of the Medium article "Understanding Reasoning Models & Test-Time Compute: Insights from DeepSeek-R1" by ChiChieh Huang. Here are the key findings:
+
+### **Overall Credibility Rating: MEDIUM ✅**
+
+### Key Findings:
+
+**Strengths:**
+- ✅ **Factually Accurate:** All major claims verified against official sources and peer-reviewed research
+- ✅ **Properly Cited:** References include accurate arXiv IDs and researcher names
+- ✅ **Current & Relevant:** Published March 17, 2025, covers recently released models
+- ✅ **Objective Tone:** Clear, informative writing without emotional manipulation
+- ✅ **Honest Disclosures:** Acknowledges AI translation and invites corrections
+
+**Limitations:**
+- ⚠️ **Author Credentials:** Practitioner (AI engineer) rather than academic researcher
+- ⚠️ **No Peer Review:** Self-published on Medium with zero editorial gatekeeping
+- ⚠️ **Self-Published Platform:** Medium is a blog platform, not an academic journal
+- ⚠️ **No Original Research:** Synthesis of existing research rather than new findings
+
+### Verified Claims:
+- OpenAI o1 performance metrics (89th percentile Codeforces) ✅
+- Chain-of-Thought research (Wei et al. 2022) ✅
+- System 1/System 2 thinking (Kahneman) ✅
+- DeepSeek-R1 capabilities ✅
+- Besta et al. (2025) research ✅
+
+### Recommended Use:
+**Best for:** Learning, educational overview, background research  
+**Not for:** Primary academic citations, critical business decisions, authoritative claims
+
+The comprehensive credibility report has been saved to your reports directory with detailed analysis of all findings.
+
+=== TOOL CALLS BREAKDOWN ===
+Checking: runtimeResult.state exists? true
+Checking: _modelResponses exists? true
+Checking: _modelResponses length? 6
+Found 6 model responses
+  Response 0: has output? true is array? true
+Found 1 tool calls in this response
+
+  Step 1: called readUrl
+  Response 1: has output? true is array? true
+Found 4 tool calls in this response
+
+  Step 2: called webSearch, webSearch, webSearch, webSearch
+  Response 2: has output? true is array? true
+Found 4 tool calls in this response
+
+  Step 3: called webSearch, webSearch, webSearch, webSearch
+  Response 3: has output? true is array? true
+Found 1 tool calls in this response
+
+  Step 4: called evaluateCredibility
+  Response 4: has output? true is array? true
+Found 1 tool calls in this response
+
+  Step 5: called writeFile
+  Response 5: has output? true is array? true
+Found 0 tool calls in this response
+
+Total tool calls: 11
